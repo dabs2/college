@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/controller" isTestSource="false" packagePrefix="College\Ddcollege\Controller\" />
+      <sourceFolder url="file://$MODULE_DIR$/model" isTestSource="false" packagePrefix="College\Ddcollege\Model\" />
+      <sourceFolder url="file://$MODULE_DIR$/view" isTestSource="false" packagePrefix="College\Ddcollege\View\" />
+      <sourceFolder url="file://$MODULE_DIR$/route" isTestSource="false" packagePrefix="College\Ddcollege\Route\" />
+      <sourceFolder url="file://$MODULE_DIR$/components" isTestSource="false" packagePrefix="College\Ddcollege\Components\" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

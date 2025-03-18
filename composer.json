@@ -1,0 +1,22 @@
+{
+  "name": "pratyush/ddcollege",
+  "description": "Description of your project",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "College\\Ddcollege\\Controller\\": "controller/",
+      "College\\Ddcollege\\Model\\": "model/",
+      "College\\Ddcollege\\View\\": "view/",
+      "College\\Ddcollege\\Route\\": "route/",
+      "College\\Ddcollege\\Components\\": "components/"
+    }
+  },
+  "authors": [
+    {
+      "name": "pratyush"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  }
+}

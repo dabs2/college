@@ -1,0 +1,7 @@
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.)$ $1.php [L]
+
+Prevent direct access to PHP files
+RewriteCond %{THE_REQUEST} .php[\ /?].$
+RewriteRule ^ - [F]
