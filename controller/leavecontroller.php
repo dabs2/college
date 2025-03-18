@@ -42,7 +42,7 @@ class leavecontroller
                 $this->notify->ThrowSuccessNotification("Successfully Submitted! the Leave Request", "Leave");
             }
         } catch (Exception $e) {
-            $this->notify->ThrowErrorNotification($e->getMessage(), "Error");
+            $this->notify->ThrowErrorNotification($e->getMessage(), "Error Occurred");
         }
         return false;
     }
@@ -283,8 +283,8 @@ class leavecontroller
                                 <input type="hidden" name="leave_id_faculty" id="leave_id_faculty" value="">
                                 <p class="confirm-message">Are you sure you want to approve this leave
                                     request?</p>
-<!--                                <p class="confirm-message text-center">Are you sure you want to approve this leave-->
-<!--                                    request?</p>-->
+                                <!--                                <p class="confirm-message text-center">Are you sure you want to approve this leave-->
+                                <!--                                    request?</p>-->
                                 <button type="submit" class="btn btn-lg btn-primary" name="approve">Approve
                                 </button>
                             </div>
